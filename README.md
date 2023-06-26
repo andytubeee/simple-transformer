@@ -1,10 +1,10 @@
-## Simple transformer 
+## Simple Transformer 
 
 Written in PyTorch, it consists of two primary components: the Transformer Encoder and Transformer Decoder; incorporating them into a full Transformer model. 
 
 advanced elements like positional encoding or multi-head attention are emitted for the sake of simplicity.
 
-### Simple Transformer 
+### Parameters Definition
 
 **k**: dimensionality of the input (which should also be the dimensionality of the model)
 
