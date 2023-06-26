@@ -19,7 +19,7 @@ y = torch.randint(0, num_classes, (batch_size, seq_length))  # Randomly generate
 model = Transformer(k, depth, num_classes)
 criterion = nn.CrossEntropyLoss()
 # Simple adam gradient descent for learning
-optimizer = optim.Adam(model.parameters()) # 
+optimizer = optim.Adam(model.parameters()) 
 
 # Number of epochs
 n_epochs = 10
